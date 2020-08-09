@@ -27,6 +27,5 @@ class Solution(object):
 
 if __name__ == "__main__":
     s = Solution()
-    print s.leastInterval(["A","A","A","B","B","B"], 2)
-    print s.leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
-
+    print s.leastInterval(["A", "A", "A", "B", "B", "B"], 2)
+    print s.leastInterval(["A", "A", "A", "A", "A", "A", "B", "C", "D", "E", "F", "G"], 2)
